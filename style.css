@@ -1,0 +1,114 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 100%;
+
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+
+.navbar {
+    height: 10%;
+    background-color: rgb(247, 247, 247);
+
+}
+
+.upcoming {
+    background-color: #0673d3;
+    border-radius: 6px;
+    height: 28px;
+    width: 12rem;
+    text-align: center;
+
+}
+
+.upcoming a {
+    color: white;
+}
+
+/* .bg img
+{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}*/
+.icon {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* .homeready {
+    padding: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.towers
+{
+    display: flex;
+    position: relative;
+    bottom: 1.7rem;
+    box-sizing: border-box;
+    gap: 29px;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0.5rem;;
+    
+}
+
+.towers img
+{
+    
+    width: 60rem;
+    height: 30rem; 
+
+}
+.towers::-webkit-scrollbar
+{
+    display: none;
+} */
+
+.towernew {
+    display: flex;
+    flex-direction: row;
+    padding: 0.3rem;
+    gap: 20px;
+    padding-top: 10rem;
+}
+
+.card img {
+    height: 20rem;
+}
+
+.carousel img {
+    height: 50rem;
+    width: 100%;
+    object-fit: cover;
+    padding: .2rem;
+}
+
+.footer {
+    background-color: black;
+}
+
+
+.footer .row {
+    width: 100%;
+    color: gray;
+    padding: 1rem;
+    font-size: 0.8em;  
+}
+
+.footer .row ul li {
+    display: block;
+    text-align: left;
+}
+
